@@ -732,8 +732,14 @@ public abstract class AbstractSurefireMojo
      * The child elements of this element must be &lt;dependency&gt; elements, and the
      * contents of each of these elements must be a string which follows the format:
      *
-     * <i>groupId:artifactId[:version[:type[:classifier]]]</i>. For example: <i>org.acme:project-a</i>,
-     * <i>org.acme:project-a::test-jar</i>, <i>org.acme:project-a:::tests-jdk15</i>
+     * <pre>groupId:artifactId[:version[:type[:classifier]]]</pre>
+     * 
+     * For example: <i>org.acme:project-a</i>, <i>org.acme:project-a::test-jar</i>,
+     * <i>org.acme:project-a:::tests-jdk15</i>
+     * 
+     * <br ><code>groupId</code>, <code>artifactId</code> and <code>classifier</code> may be entered as regular
+     * expressions to compare against artifacts. An exact match check is performed for the <code>version</code> and
+     * <code>type</code>.
      *
      * @since 2.15
      */
