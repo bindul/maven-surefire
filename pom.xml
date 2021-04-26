@@ -90,7 +90,7 @@
     <!-- <shadedVersion>2.12.4</shadedVersion> commented out due to https://issues.apache.org/jira/browse/MRELEASE-799 -->
     <mavenPluginPluginVersion>3.5</mavenPluginPluginVersion>
     <commonsLang3Version>3.5</commonsLang3Version>
-    <commonsIoVersion>2.5</commonsIoVersion>
+    <commonsIoVersion>2.7</commonsIoVersion>
     <mavenSharedUtilsVersion>0.9</mavenSharedUtilsVersion>
     <powermockVersion>2.0.0-beta.5</powermockVersion>
     <maven.surefire.scm.devConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-surefire.git</maven.surefire.scm.devConnection>
